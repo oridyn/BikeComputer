@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.bluetooth.le;
+package com.danielnyiro.bikecomputer;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothGattCharacteristic;
