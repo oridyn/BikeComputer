@@ -39,6 +39,12 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.UUID;
 
+import com.danielnyiro.bikecomputer.R;
+import com.danielnyiro.bikecomputer.R.id;
+import com.danielnyiro.bikecomputer.R.layout;
+import com.danielnyiro.bikecomputer.R.menu;
+import com.danielnyiro.bikecomputer.R.string;
+
 /**
  * Activity for scanning and displaying available Bluetooth LE devices.
  */

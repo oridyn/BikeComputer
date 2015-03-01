@@ -39,6 +39,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import com.danielnyiro.bikecomputer.R;
+import com.danielnyiro.bikecomputer.R.id;
+import com.danielnyiro.bikecomputer.R.layout;
+import com.danielnyiro.bikecomputer.R.menu;
+import com.danielnyiro.bikecomputer.R.string;
+
 /**
  * For a given BLE device, this Activity provides the user interface to connect, display data,
  * and display GATT services and characteristics supported by the device.  The Activity

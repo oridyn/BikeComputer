@@ -16,18 +16,18 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.main);
 
 		pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
 		wl = pm.newWakeLock(PowerManager.SCREEN_DIM_WAKE_LOCK
                 | PowerManager.ACQUIRE_CAUSES_WAKEUP, "My Tag");
 		wl.acquire();
 		
-		TextView speedo = (TextView) findViewById(R.id.custom_font);
-		Typeface font = Typeface.createFromAsset(getAssets(), "digital-7 (mono italic).ttf");
-		speedo.setTypeface(font);
-		speedo.setText("50");
-		speedo.setTextSize(100);
+//		TextView speedo = (TextView) findViewById(R.id.custom_font);
+//		Typeface font = Typeface.createFromAsset(getAssets(), "digital-7 (mono italic).ttf");
+//		speedo.setTypeface(font);
+//		speedo.setText("50");
+//		speedo.setTextSize(100);
 	}
 
 	@Override
